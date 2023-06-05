@@ -17,11 +17,11 @@ pipeline {
 //       }
 //     }
 
-    stage('Package') {
-      steps {
-        sh 'npm run build'
-      }
-    }
+//     stage('Package') {
+//       steps {
+//         sh 'npm run build'
+//       }
+//     }
 
      stage('Build Docker image'){
            steps {
